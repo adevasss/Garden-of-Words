@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Garden of Words</title>
+  </head>
+  <body>
+    <style>
+      * {
+        scroll-behavior: smooth;
+      }
+    </style>
+
+    <!-- header-->
+    <header class="bg-black sticky top-0">
+      <nav class="text-white w-11/12 md:container mx-auto py-4 flex justify-between items-center">
+        <a href="" class="text-3xl font-bold font-mono text-white">AdeVass</a>
+        <ul class="menu hidden md:flex md:bg-black md:relative md:top-0 md:divide-y-0 md:w-auto font-mono font-semibold text-white">
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#top">Home</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#about">About</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#picture">Picture</a></li>
+        </ul>
+        <button class="hamburger-menu text-2xl md:hidden">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark hidden"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- hero -->
+    <section style="position: relative; overflow: hidden;">
+    <video autoplay muted loop style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: full; height: auto; z-index: -1; transform: translate(-50%, -50%);">
+        <source src="img/garden-of-words.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container mx-auto text-center text-white h-screen flex items-center">
+        <div class="mx-auto w-3/4 md:w-2/4">
+            <h3 class=" text-6xl font-bold text-center mb-5 font-serif underline">Garden of Words</h3>
+        </div>
+    </div>
+</section>
+    <!-- services -->
+    <section id="about" class="py-20 bg-white text-gray-800">
+      <div class="container mx-auto px-6 lg:px-20">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold">Garden of Words</h2>
+          <p class="mt-4 text-lg">
+            an animation that shows beauty of nature and also romance.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center">
+          <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
+            <div class="sketchfab-embed-wrapper">
+              <iframe title="nilou" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="img/about vid.mp4" width="100%" height="480"> 
+              </iframe>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 lg:pl-16">
+            <p class="text-xl mb-6">
+              The Garden of Words (Japanese: 言の葉の庭, Hepburn: Kotonoha no Niwa) is a 2013 Japanese anime drama film written, directed and edited by Makoto Shinkai, animated by CoMix Wave Films and distributed by Toho. It stars Miyu Irino and Kana Hanazawa, and features music by Daisuke Kashiwa instead of Tenmon, who had composed the music for many of Shinkai's previous films.
+            </p>
+            <div class="space-y-8">
+              <div class="flex items-start">
+                <div class="p-3 bg-teal-600 rounded-full shadow-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2.25C12 2.25 8.25 7.2 8.25 10.5A3.75 3.75 0 0012 14.25c2.07 0 3.75-1.68 3.75-3.75 0-3.3-3.75-8.25-3.75-8.25zM12 22.25c-3.45 0-6.25-2.8-6.25-6.25h12.5c0 3.45-2.8 6.25-6.25 6.25z"></path>
+                  </svg>
+                </div>
+                <div class="ml-4">
+                  <h3 class="text-lg font-semibold">Background</h3>
+                  <p class="text-gray-600">
+                    Kotonoha no Niwa won the Feature Film Award in the 18th Animation Kobe Awards in 2013 and shared the Satoshi Kon Award for Achievement in Animation with Berserk: Ougon Jidaihen III - Kourin. In 2014, the movie won the AniMovie Award for best feature film.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="p-3 bg-blue-700 rounded-full shadow-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7c1.35 1.36 2.25 2.25 4 2.25C10 9.25 12 5 15 5c3 0 4.5 6 9 6-1.35-1.35-2.25-2.25-4-2.25C15 8.75 13 13 10 13c-3 0-4.5-6-9-6zm0 10c1.35 1.36 2.25 2.25 4 2.25 3 0 5-4.25 8-4.25 3 0 4.5 6 9 6-1.35-1.35-2.25-2.25-4-2.25-3 0-5 4.25-8 4.25-3 0-4.5-6-9-6z"></path>
+                  </svg>
+                </div>
+                <div class="ml-4">
+                  <h3 class="text-lg font-semibold">Producers</h3>
+                  <p class="text-gray-600">
+                  The Answer Studio, TOHO animation.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="p-3 bg-indigo-500 rounded-full shadow-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6c4.418 0 8 2.686 8 6s-3.582 6-8 6-8-2.686-8-6 3.582-6 8-6z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14.5c-1.933 0-3.5-.895-3.5-2s1.567-2 3.5-2 3.5.895 3.5 2-1.567 2-3.5 2z"></path>
+                  </svg>
+                </div>
+                <div class="ml-4">
+                  <h3 class="text-lg font-semibold">Genres</h3>
+                  <p class="text-gray-600">
+                    Award Winning, Drama, Romance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="picture">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold">Picture</h2>
+        <p class="mt-4 text-lg">
+          some picture of The Garden of Words
+        </p>
+      </div>
+      <div class="w-full max-w-7xl p-5 pb-10 mx-auto mb-10 gap-5 columns-3 space-y-5">
+        <img src="img/pic 1.jpg" alt="">
+        <img src="img/pic 2.jpg" alt="">
+        <img src="img/pic 3.png" alt="">
+        <img src="img/pic 4.jpg" alt="">
+        <img src="img/pic 5.jpg" alt="">
+        <img src="img/pic 6.jpg" alt="">
+      </div>
+    </section>
+
+    <footer class="footer footer-center bg-base-300 text-base-content p-4 text-center bg-black text-white">
+      <aside>
+        <p>Copyright © 2024 - All right reserved by Raditya</p>
+      </aside>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
